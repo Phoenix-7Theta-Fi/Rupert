@@ -1,0 +1,12 @@
+{
+  "name": "drisht",
+  "version": "1.0.0",
+  "description": "Ayurvedic Practitioners Blogging and Appointment Platform",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
